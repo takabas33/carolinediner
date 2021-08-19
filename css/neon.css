@@ -1,0 +1,153 @@
+@import url(//fonts.googleapis.com/css?family=Vibur);
+
+
+.neon_logo {
+  text-align: center;
+  width: 65%;
+  height: 250px;
+  margin: 60px;
+}
+
+.neon_logo b{
+  font: 400 13vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.neon_logo b span{
+  animation: blink linear infinite 2s;
+}
+.neon_logo b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+@keyframes blink {
+  78% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  79%{
+     color: #333;
+  }
+  80% {
+    
+    text-shadow: none;
+  }
+  81% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  82% {
+    color: #333;
+    text-shadow: none;
+  }
+  83% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+  92% {
+    color: #333;
+    text-shadow: none;
+  }
+  92.5% {
+    color: inherit;
+    text-shadow: inherit;
+  }
+}
+
+
+/* follow me @nodws */
+#btn-twtr{
+  clear:both;
+  color:#fff;
+  border:2px solid;
+  border-radius:3px;
+  text-align:center;
+  text-decoration:none;
+  display:block;
+  font-family:sans-serif;
+  font-size:14px;
+  width:13em;
+  padding:5px 10px;
+  font-weight:600;
+  position:absolute;
+  bottom:20px;
+  left:0;
+  right:0;
+  margin:0 auto;
+  background:rgba(0,0,0,0.2);
+  box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+  opacity:0.4
+}#btn-twtr:hover{color:#fff;opacity:1}
+
+
+.neon_logo_nav {
+  width: 100%;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.neon_logo_nav b{
+  font: 400 11vh "Vibur";
+  color: #fee;
+  text-shadow: 0 -40px 100px, 0 0 2px, 0 0 1em #ff4444, 0 0 0.5em #ff4444, 0 0 0.1em #ff4444, 0 10px 3px #000;
+}
+.neon_logo_nav b span{
+  animation: blink linear infinite 2s;
+}
+.neon_logo_nav b span:nth-of-type(2){
+  animation: blink linear infinite 3s;
+}
+
+.red:hover{
+  animation: intermittente 0.01s infinite alternate;
+}
+
+
+/* ボタン */
+
+@keyframes intermittente {
+  75% {
+    opacity: 0.7;
+  }
+}
+.neon-btn {
+  display: inline-block;
+  margin-bottom: 0;
+  vertical-align: middle;
+  touch-action: manipulation;
+  cursor: pointer;
+  background-color: transparent;
+  background-image: none;
+  background-repeat: no-repeat;
+  background-position: 18px center;
+  border: 1px solid #cb3535;
+  white-space: nowrap;
+  outline: none;
+  color: #68939c;
+  font-size: 16px;
+  line-height: 24px;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 2px;
+  font-weight: 300;
+  width: auto;
+  white-space: pre-wrap;
+  padding: 10px 1.8em;
+  transition: all 0.3s ease;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  font-family: 'Vibur', sans-serif;
+  transform: translate3d(-50%,-50%,0);
+}
+@media (min-width: 480px) {
+  .neon-btn {
+    width: auto;
+  }
+}
+.neon-btn:hover {
+  animation: intermittente 0.01s infinite alternate;
+  box-shadow: 0px 0px 35px rgba(204,0,0,0.3), 0 0 11px rgba(204,0,0,0.3), 0 0 2px rgba(255,0,0,0.3), 0 0 1px rgba(204,0,0,0.3), 0 0px 17px rgba(204,0,0,0.3), inset 0px 0 17px rgba(204,0,0,0.3), inset 0px 0 30px rgba(204,0,0,0.3);
+}
+ 
+
