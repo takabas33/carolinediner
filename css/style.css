@@ -249,9 +249,9 @@ body {
 }
 
 /* side padding */
-.side_padding {
+/* .side_padding {
     border: 10px solid #fff;
-}
+} */
 
 /* header */
 
@@ -356,7 +356,7 @@ header {
     position: relative;
     width: 350px;
     height: 400px;
-    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     z-index: 1;
 }
 
@@ -415,8 +415,6 @@ header {
     width: 100%;
     height: 100%;
     margin: 100px auto;
-    padding-right: 2%;
-    padding-left: 2%;
     box-sizing: content-box;
     display: flex;
     background-color: #FFF;
@@ -548,6 +546,7 @@ dl.menu_grid_left_menutable dd {
     background-color: #eaeaea;
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
+    padding-bottom: 100px;
 }
 
 .items_img {
@@ -674,8 +673,8 @@ dl.menu_grid_left_menutable dd {
     letter-spacing: 1.8pt;
 }
 
-.access_content_left_description_eigyo{
-    margin-top:50px;
+.access_content_left_description_eigyo {
+    margin-top: 50px;
 }
 
 .access_content_left_description p {
@@ -697,7 +696,8 @@ dl.menu_grid_left_menutable dd {
 .access_overview {
     display: block;
 }
-.access_times span{
+
+.access_times span {
     font-size: 0.8rem;
     line-height: 1.7;
     margin-left: 10px;
@@ -718,7 +718,9 @@ dl.menu_grid_left_menutable dd {
     background-color: #eaeaea;
     background-size: 60px 60px;
     background-position: 0 0, 30px 30px;
+    padding-bottom: 100px;
 }
+
 
 .instagram_title {
     display: flex;
@@ -789,6 +791,7 @@ dl.menu_grid_left_menutable dd {
     height: 500px;
     position: relative;
     overflow: hidden;
+    padding-bottom: 40px;
     /* height: 325px; */
 }
 
@@ -836,13 +839,18 @@ dl.menu_grid_left_menutable dd {
     max-width: 100%;
     height: 50px;
     background-color: #fff;
+    display: flex;
+    justify-content: space-around
 }
 
 .footer p {
-    box-decoration-break: clone;
-    -webkit-box-decoration-break: clone;
-    display: inline;
-    padding: .3em;
-    line-height: 2.5;
-    background-color: #E3BF00;
+    line-height: 50px;
+    font-size: 1.2em;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+@media (max-width: 763px) {
+    .access {
+        margin-bottom: 50px;
+    }
 }

@@ -150,4 +150,12 @@
   box-shadow: 0px 0px 35px rgba(204,0,0,0.3), 0 0 11px rgba(204,0,0,0.3), 0 0 2px rgba(255,0,0,0.3), 0 0 1px rgba(204,0,0,0.3), 0 0px 17px rgba(204,0,0,0.3), inset 0px 0 17px rgba(204,0,0,0.3), inset 0px 0 30px rgba(204,0,0,0.3);
 }
  
+@media (max-width:763px){
+  .neon_logo_nav {
+    margin-top: 100px;
+}
+  .neon_logo_nav b{
+    font: 400 6vh "Vibur";
 
+  }
+}
