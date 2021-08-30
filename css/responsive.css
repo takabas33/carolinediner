@@ -124,6 +124,9 @@
         background-color: transparent;
         margin: 0 auto;
     }
+    .items_img:hover div {
+        opacity: 0;
+    }
 
     .items_img img {
         width: 280px;
