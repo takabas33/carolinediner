@@ -310,16 +310,30 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 50px;
 }
 
 .main_visual_title h2 {
     font-size: 3rem !important;
     padding-top: 10px !important;
 }
+.logo_title{
+    /* -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; */
+    display: flex;
+    flex-direction: column;
+}
 
 .main_visual_logo {
     text-align: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.main_visual_title{
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
 }
 
 .main_visual_logo img {
