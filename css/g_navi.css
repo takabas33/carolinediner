@@ -12,7 +12,7 @@
     height: 100vh;/*ナビの高さ*/
     /*動き*/
     transition: all 0.6s;
-     /* background-image: url("/image/wall.jpg");  */
+    background-image: url("/image/wall.jpg");  
     background-color: #fff6f6;
     background-size: cover;
 }
@@ -20,7 +20,7 @@
 /*アクティブクラスがついたら位置を0に*/
 #g-nav.panelactive{
     right: 0;
-    border: 10px solid #e83223;
+    /* border: 10px solid #e83223; */
 }
 
 .fixed{
@@ -54,6 +54,7 @@
 	list-style: none;
     text-align: center;
     font-size: 1.6rem;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 #g-nav li a{
