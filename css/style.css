@@ -310,7 +310,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .main_visual_title h2 {
@@ -428,6 +428,7 @@ header {
     font-weight: bolder;
     background: linear-gradient(transparent 0%, #E3BF00 0%);
     display: inline-block;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 .menutable_name h5 {
@@ -503,6 +504,7 @@ dl.menu_grid_left_menutable dd {
     background-color: #ffffff;
     z-index: 2;
     text-align: right;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
 
@@ -816,7 +818,8 @@ dl.menu_grid_left_menutable dd {
 .neon {
     /* background: #112 url(//images.weserv.nl/?url=i.imgur.com/6QJjYMe.jpg) center no-repeat; */
     background-size: cover;
-    margin: 0 position: relative;
+    margin: 0 ;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
