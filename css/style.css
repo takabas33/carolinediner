@@ -310,6 +310,7 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-bottom: 10px;
 }
 
 .main_visual_title h2 {
